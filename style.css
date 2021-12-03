@@ -1,0 +1,324 @@
+@font-face{ 
+	font-family: 'minera';
+	src: url('WebFont.eot');
+	src: url('WebFont.eot?#iefix') format('embedded-opentype'),
+	     url('minera-font/webfontkit-20211026-055721/minera-bold-webfont.woff') format('woff'),
+	     url('minera-font/webfontkit-20211026-055721/') format('truetype'),
+	     url('WebFont.svg#webfont') format('svg');
+}
+
+.buttonspan {
+	height: auto;
+	width: max-content;
+	font-size: 20px;
+	padding: 20px;
+	color: white;
+	cursor: pointer;
+	font-family: Verdana, Geneva, Tahoma, sans-serif; 
+	border: solid 0px;
+	border-radius: 10px;
+	background-image: linear-gradient(70deg, blue, rgb(199, 113, 1),rgb(199, 113, 1),blue);
+	background-size: 300%;
+	background-position: left;
+	transition: 1s background-position ease-in-out, 1s padding;
+}
+
+.buttonspan:hover {
+	background-position: right;
+	transition: 0.5s;
+	padding: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1 {
+	color: rgb(255, 255, 255);
+	font-size: 50px;
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+h2 {
+	color: rgb(255, 255, 255);
+	font-size: 25px;
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+h3 {
+	color: rgba(255, 255, 255, 0.459);
+	font-size: 20px;
+	text-align: center;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: 550;
+	text-transform: uppercase;
+}
+
+video {
+	height: 100px;
+	width: auto;
+	position: relative;
+	display: block;
+}
+
+body {
+	background-color: rgb(27, 27, 27);
+}
+
+p{
+	display: inline-block;
+	position: relative;
+	height: min-content;
+	width: 40vw;
+	color: wheat;
+	font-size: 30px;
+	text-align: justify;
+	font-weight: 700;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbarre{
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: min-content;
+	width: 100%;
+	border: solid 0px rgba(39, 39, 39, 0);
+	background-color: rgba(39, 39, 39, 0);
+	transition: 0.5s;
+	z-index: 1;
+}
+
+
+.categorie {
+	display: inline-block;
+	position: relative;
+	margin: 20px 20px 20px 20px;
+	float: right;
+}
+
+.categorie:hover {
+	background-color: rgba(255, 255, 255, 0.24);
+	margin: 10px 0px 0px 0px;
+	padding: 20px;
+	margin-top: 0px;
+	cursor: pointer;
+}
+
+.categorietext {
+	color: white;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.profilimage {
+	display: inline-block;
+	border: solid 0px;
+	border-radius: 100px;
+	height: 50px;
+	width: auto;
+	margin: 10px 0px 0px 20px;
+}
+
+.contenu {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: min-content;
+	margin: 70px 0px 20px 0px;
+}
+
+.homepage {
+	height: min-content;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.imghomebackground {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	margin: 0px;
+	border: solid 0px;
+	height: 100vh;
+	width: 99vw;
+	display: block;
+	z-index: -2;
+	filter: blur(5px) brightness(40%);
+	
+}
+
+.title{
+	font-size: 10vh;
+	text-transform: uppercase;
+	color: white;
+	font-weight: 900;
+	font-family: 'WebFont', Arial, sans-serif;
+	letter-spacing: 0.5em;
+}
+
+.titlecontainer {
+	text-align: center;
+	position: relative;
+	height: min-content;
+	width: min-content;
+	margin: 35vh 40vw 35vh 35vw;
+}
+
+.part1 {
+	display: block;
+	position: relative;
+	height: min-content;
+	width: content;
+	margin: 45vh 0px 20px 0px;
+}
+
+.part1point1 {
+	display: block;
+	float: left;
+	width: 25vw;
+	margin: auto auto 20px 12.5vw;
+}
+
+.part1point2 {
+	display: block;
+	float: right;
+	width: min-content;
+	margin: 100px 50px 20px 20px;
+}
+
+.imgofpart1 {
+	height: 400px;
+	max-width: 50vw;
+	min-width: 40vw;
+	border-radius: 10px;
+	-webkit-transition: all 0.2s;
+     -moz-transition: all 0.2s;
+     -ms-transition: all 0.2s;
+     -o-transition: all 0.2s;
+     transition: all 0.2s;
+}
+
+.imgofpart1:hover {
+	transform:scale(1.05);
+}
+
+.part2 {
+	display: block;
+	position: relative;
+	height: min-content;
+	width: content;
+	margin: 15vh 0px 20px 0px;
+}
+
+.part2point1 {
+	display: block;
+	float: right;
+	width: 40vw;
+	margin: auto 5vw 20px auto;
+}
+
+.part2point2 {
+	display: block;
+	float: left;
+	width: min-content;
+	margin: 100px 20px 20px 50px;
+}
+
+.imgofpart2 {
+	height: 400px;
+	max-width: 50vw;
+	min-width: 40vw;
+	border-radius: 10px;
+	-webkit-transition: all 0.2s;
+     -moz-transition: all 0.2s;
+     -ms-transition: all 0.2s;
+     -o-transition: all 0.2s;
+     transition: all 0.2s;
+}
+
+.imgofpart2:hover {
+	transform:scale(1.05);
+}
+
+.part3 {
+	display: block;
+	position: relative;
+	height: min-content;
+	width: content;
+	margin: 15vh 0px 20px 0px;
+}
+
+.part3point1 {
+	display: inline-block;
+	text-align: center;
+	width: content;
+	margin: auto 15vw 20px 15vw;
+}
+
+.part3point2 {
+	display: block;
+	width: content;
+	margin: 100px 7.5vw 50px 7.5vw;
+}
+
+.imgofpart3 {
+	height: 100%;
+	width: 100%;
+	cursor: pointer;
+	-webkit-transition: all 0.2s;
+     -moz-transition: all 0.2s;
+     -ms-transition: all 0.2s;
+     -o-transition: all 0.2s;
+     transition: all 0.2s;
+}
+
+.imgofpart3:hover {
+	transform:scale(1.2);
+}
+
+.part3point3 {
+	overflow: hidden;
+	border: solid 1px ;
+	border-radius: 10px;
+}
+
+.footer {
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 410vh;
+	height: min-content;
+	width: 100%;
+	min-height: 150px;
+	background-color: rgb(20, 20, 20);
+	border: solid 0px;
+	border-top: 20px;
+	overflow: hidden;
+}
+
+.videoplus {
+	display: block;
+	position: relative;
+	margin: 20px;
+	height: min-content;
+	width: content;
+
+}
+
+.imgexemple {
+	position: relative;
+	display: inline-block;
+	width: 40%;
+	height: auto;
+	margin: 4%;
+}
